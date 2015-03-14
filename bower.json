@@ -1,0 +1,21 @@
+{
+  "name": "Angular-First-Project",
+  "version": "0.0.0",
+  "homepage": "https://github.com/rb7373/Angular-First-Project",
+  "authors": [
+    "rb7373 <abarca.ruben73@gmail.com>"
+  ],
+  "description": "Angular Project",
+  "keywords": [
+    "AngularJS",
+    "NodeJS"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lumx": "~0.3.21",
+    "roboto-fontface": "~0.3.0",
+    "angular-ui-router": "~0.2.13",
+    "angular-material": "~0.8.3"
+  }
+}

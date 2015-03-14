@@ -1,0 +1,9 @@
+div(layout="row", ng-controller="MyController")
+    md-sidenav.md-sidenav-left(md-component-id="left")
+        | Left Nav!
+    md-content
+        | Center Content
+        md-button(ng-click="openLeftMenu()")
+            | Open Left Menu
+    md-sidenav.md-sidenav-right(md-component-id="right", md-is-locked-open="$mdMedia('min-width: 333px')")
+        | Right Nav!
